@@ -1,0 +1,48 @@
+main section.ver_mas{
+    background-color: white;
+    margin-top: 10px;
+    border-radius: 7px;
+    width: 236px;
+    height: 120px;
+    border: 3px solid #EEEBEB;
+
+}
+
+main section.ver_mas{
+    font-size: 12px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding-top: 10px;
+}
+
+main section.ver_mas a{
+    color: #5598E3;
+    font-weight: bold;
+    padding-left: 10px;
+}
+
+main section.ver_mas a:hover{
+    text-decoration: underline;
+}
+
+main section.ver_mas div.eventos_ver_mas{
+    display: flex;
+    justify-content: space-between;
+    padding-right: 15px;
+}
+
+main section.ver_mas div.ver_mas_option{
+    border-top: 1px solid gray;
+    padding-top: 8px;
+    text-align: center;
+    height: 33px;
+    font-weight: bold;
+    font-size: 15px;
+}
+
+main section.ver_mas div.ver_mas_option:hover{
+    background-color: #EEEBEB;
+    border-bottom-left-radius: 7px; 
+    border-bottom-right-radius: 7px;
+}

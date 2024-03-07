@@ -1,0 +1,46 @@
+section.anadir_feed{
+    background-color: white;
+    margin-top: 2px;
+    border-radius: 7px;
+    width: 300px;
+    height: 380px;
+    position: relative;
+    left: 1020px;
+    bottom: 515px;
+    font-size: 14px;
+    padding: 8px;
+    border: 3px solid #EEEBEB;
+}
+
+section.anadir_feed div.titulo_anadir_feed{
+    display: flex;
+    font-size: 15px;
+    font-weight: bold;
+    padding-top: 10px;
+    padding-left: 5px;
+    padding-right: 5px;
+    padding-bottom: 20px;
+    justify-content: space-between;
+}
+
+section.anadir_feed div.persona1, section.anadir_feed div.persona2, section.anadir_feed div.persona3{
+    display: flex;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    gap: 10px;
+}
+
+section.anadir_feed div.persona1 a.seguir, section.anadir_feed div.persona2 a.seguir, section.anadir_feed div.persona3 a.seguir{
+    position: relative;
+    right: 20px;
+}
+
+section.anadir_feed p.nombre{
+    font-weight: bold;
+}
+
+section.anadir_feed a{
+    padding-left: 15px;
+    font-weight: bold;
+    color: gray;
+}
